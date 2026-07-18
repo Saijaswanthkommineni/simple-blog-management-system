@@ -1,0 +1,18 @@
+{
+  "name": "simple-blog-management-system",
+  "version": "1.0.0",
+  "description": "Simple Blog Management System built during Full Stack Development Internship",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "blog"
+  ],
+  "author": "Sai Jaswanth",
+  "license": "ISC",
+  "type": "commonjs"
+}
