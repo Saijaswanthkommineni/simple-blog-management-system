@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Blog | Add Blog</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Simple Blog</h1>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/add-blog.html">Add Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="add-blog">
+            <h2>Add a New Blog</h2>
+            <form action="#" method="POST">
+                <div>
+                    <label for="blog-title">Blog Title:</label>
+                    <input 
+                        type="text" 
+                        id="blog-title" 
+                        name="blog-title" 
+                        placeholder="Enter your blog title" 
+                        required
+                    >
+                </div>
+
+                <div>
+                    <label for="author-name">Author Name:</label>
+                    <input 
+                        type="text" 
+                        id="author-name" 
+                        name="author-name" 
+                        placeholder="Enter your name" 
+                        required
+                    >
+                </div>
+
+                <div>
+                    <label for="blog-content">Blog Content:</label>
+                    <textarea 
+                        id="blog-content" 
+                        name="blog-content" 
+                        placeholder="Write your blog content here..." 
+                        required
+                    ></textarea>
+                </div>
+
+                <button type="submit">Publish Blog</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Simple Blog Management System &copy; 2026</p>
+    </footer>
+</body>
+</html>
