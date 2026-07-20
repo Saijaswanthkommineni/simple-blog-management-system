@@ -1,11 +1,12 @@
 # Simple Blog Management System
 
-A simple blog management system built with Node.js and Express.
+A full-stack blog management project built using HTML, CSS, JavaScript, Node.js, and Express.js.
 
 ## Day 1
-- Node.js project initialized
-- Express server setup
-- Basic server running on port 3000
+- Initialized Node.js project
+- Installed Express.js
+- Created a Hello World server
+- Server runs on port 3000
 
 ## Day 2
 - Home page created
@@ -14,7 +15,19 @@ A simple blog management system built with Node.js and Express.
 - Footer added
 - HTML form added
 
-## Installation
-1. Install dependencies: `npm install`
-2. Start the server: `npm start`
-3. Open browser: `http://localhost:3000`
+## Day 3
+- Professional CSS styling added
+- Responsive design for mobile and desktop
+- JavaScript functionality for dynamic blog cards
+- Form validation implemented
+- Add/Delete blog functionality
+- LocalStorage for data persistence
+
+## Run Locally
+
+```bash
+npm install
+npm start
+```
+
+Open browser at http://localhost:3000

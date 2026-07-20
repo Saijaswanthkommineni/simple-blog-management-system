@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Blog | Add Blog</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
@@ -29,6 +30,7 @@
                         placeholder="Enter your blog title" 
                         required
                     >
+                    <span class="error"></span>
                 </div>
 
                 <div>
@@ -40,6 +42,7 @@
                         placeholder="Enter your name" 
                         required
                     >
+                    <span class="error"></span>
                 </div>
 
                 <div>
@@ -50,6 +53,7 @@
                         placeholder="Write your blog content here..." 
                         required
                     ></textarea>
+                    <span class="error"></span>
                 </div>
 
                 <button type="submit">Publish Blog</button>
@@ -60,5 +64,6 @@
     <footer>
         <p>Simple Blog Management System &copy; 2026</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
