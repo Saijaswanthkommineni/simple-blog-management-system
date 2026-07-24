@@ -23,6 +23,16 @@ A full-stack blog management project built using HTML, CSS, JavaScript, Node.js,
 - Add/Delete blog functionality
 - LocalStorage for data persistence
 
+## Day 4
+- DOM Manipulation
+- Event Handling
+- Enhanced Form Validation
+- Error Messages with real-time feedback
+- Success Message display
+- Accessibility features (aria-live, aria-describedby)
+- Reorganized project structure (css/ and js/ directories)
+- Separated validation functions for better code quality
+
 ## Run Locally
 
 ```bash
